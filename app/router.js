@@ -7,8 +7,7 @@ import NotFound from 'page/not-found';
 
 const Routes = (
     <Route path="/" component={App}>
-        <IndexRoute component={Index} />
-        <Route path="*" component={NotFound} />
+        <Route path="*" component={Index} />
     </Route>
 );
 

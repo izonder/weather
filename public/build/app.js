@@ -27696,8 +27696,7 @@ webpackJsonp([0,1],[
 	var Routes = _react2.default.createElement(
 	    _reactRouter.Route,
 	    { path: '/', component: _app2.default },
-	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _index2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: '*', component: _notFound2.default })
+	    _react2.default.createElement(_reactRouter.Route, { path: '*', component: _index2.default })
 	);
 	
 	exports.default = Routes;
